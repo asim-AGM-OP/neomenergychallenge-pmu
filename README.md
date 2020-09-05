@@ -1,0 +1,7 @@
+# neomenergychallenge-pmu
+The files included are for CSP and Wind Turbine Artificial Intelligence Systems using machine learning codes.
+CSP Folder, DNI.m is the matlab code used for executing a nueral network code for predicting the direct nominal irradiance (DNI) using data from excel file "DNI data.xlsx" which basically includes data over the span of 5 years and 5 months. The first three columns are used as inputs which are temperature, humidity, atmospheric pressure and the forth and last column for DNI as an output or targert to successfully forecast and obtain prediction for the proper performance of the aritificial intelligence system undergoing an extended machine learning train.
+Similarly, windturbine folder contains a pair of files including a matlab code for SVM (Support Vector Machine Learning) in "ws_svm.m" file to forecast windspeed using data from "data for wt ai.xlsx" containing 5 years and 5 months of data. However, the first four columns include temperature, humidity, wind direction and atmospheric pressure as input and wind speed as output to under forecasting in NEOM Region. 
+The data split for DNI prediction is done by the NNtool whereas for Wind Speed prediction, the data for 5 years is used in training and the remaining data for 5 months is used in testing.
+The codes used for each artificial system through machine learning has provided us with the best possible outcome for each parameter namely DNI and Windspeed based on the data we had to use from. 
+Thank You
